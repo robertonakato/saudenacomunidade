@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saúde na comunidade</title>
+    <link rel="stylesheet" href="./estilos/index.css" />
+    <link rel="stylesheet" href="./estilos/noticias.css" />
+    <link rel="stylesheet" href="./estilos/servicos.css" />
+    <link rel="stylesheet" href="./estilos/banner.css" />
+    <link rel="stylesheet" href="./estilos/contatos.css" />
+    <link rel="stylesheet" href="/estilos/perguntas.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="./src/Logo.png" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home" class="banner">
+      <section id="home" class="banner">
+        <div class="banner-container">
+          <button class="prev" onclick="mudarSlide(-1)">❮</button>
+          <div class="banner-img">
+            <img src="./src/banner 01.png" class="slide ativo" />
+            <img src="./src/cirugias.jpeg" class="slide" />
+            <img src="./src/banner 002.png" class="slide" />
+          </div>
+          <button class="next" onclick="mudarSlide(1)">❯</button>
+        </div>
+      </section>
+    </section>
+    <h2>📰Ultimas Noticias</h2>
+    <section class="noticias">
+      <div class="news-container">
+        <div class="news-card">
+          <div class="date">16/03/2025</div>
+          <img src="./src/banner 01.png" alt="Imagem da notícia" />
+          <div class="news-content">
+            <h3>Coquitel em homenagem as Mulheres</h3>
+            <p>
+              nossa festividade no Brasil eventos,Para homenagear todas as
+              mulheres, onde os membros do grupo se divertiram, foram premiados,
+              e tivemos apoio parceiros
+            </p>
+          </div>
+        </div>
+
+        <div class="news-card">
+          <div class="date">14/03/2025</div>
+          <img src="image4.jpg" alt="Imagem da notícia" />
+          <div class="news-content">
+            <h3>
+              Até dia 17 de março há descontos para IPVA de veículos com final
+              de placas 73 a 93
+            </h3>
+            <p>
+              Descontos são de 15% do valor do imposto para quem está há dois
+              anos sem multa...
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <h2>Serviços Ofertados</h2>
+
+    <section id="servicos" class="servicos">
+      <div class="servicos-container">
+        <div class="servico consulta">
+          <div class="detalhes">
+            <p><span>X</span></p>
+            <div class="grid">
+              <div class="item">CLÍNICO GERAL</div>
+              <div class="item">VASCULAR</div>
+              <div class="item">ODONTOLOGISTA</div>
+              <div class="item">UROLOGISTA</div>
+              <div class="item">GINECOLOGISTA</div>
+            </div>
+          </div>
+          <img src="./src/consulta.jpg" alt="Dermatologia" />
+          <h3>Consultas</h3>
+          <button class="vermais-consultas">Veja quais</button>
+        </div>
+        <div class="servico exame">
+          <div class="detalhes">
+            <p><span>X</span></p>
+            <div class="grid">
+              <div class="item">COLECISTECTOMIA</div>
+              <div class="item">HISTERECTOMIA</div>
+              <div class="item">LAQUEADURA</div>
+              <div class="item">VARIZES</div>
+              <div class="item">CISTO</div>
+              <div class="item">FIMOSE</div>
+              <div class="item">HÉRNIA UMBILICAL</div>
+              <div class="item">OOFORECTOMIA</div>
+              <div class="item">HÉRNIA INGUINAL</div>
+              <div class="item">LAQUEADURA</div>
+              <div class="item">PRÓSTATA</div>
+              <div class="item">MIOMA</div>
+              <div class="item">PERINEOPLASTIA</div>
+              <div class="item">HEMORROIDECTOMIA</div>
+            </div>
+          </div>
+          <img src="./src/exames.jpg" alt="exames" />
+          <h3>Exames</h3>
+          <button class="vermais-exames">Veja quais</button>
+        </div>
+        <div class="servico cirurgia">
+          <div class="detalhes">
+            <p><span>X</span></p>
+            <grid>
+              <div class="item">USG ABDOMINAL TOTAL</div>
+              <div class="item">USG PRÓSTATA (Abdominal)</div>
+              <div class="item">USG TRANSVAGINAL</div>
+              <div class="item">ELETROCARDIOGRAMA</div>
+              <div class="item">TESTE ERGONOMÉTRICO</div>
+              <div class="item">TOMOGRAFIAS (sem contraste)</div>
+              <div class="item">USG Vias Urinárias</div>
+              <div class="item">USG Obstétrica</div>
+              <div class="item">USG Pélvica (Não morfológica)</div>
+              <div class="item">RAIO X PA E PERFIL COM LAUDO</div>
+              <div class="item">ECOCARDIOGRAMA</div>
+            </grid>
+          </div>
+          <img src="./src/cirugias.jpeg" alt="Neurologia" />
+          <h3>Cirugias</h3>
+          <button class="vermais-cirugias">Veja quais</button>
+        </div>
+      </div>
+    </section>
+    <h2>Perguntas Frequentes</h2>
+    <section>
+      <div class="faq">
+        <div class="perguntas">
+          <h3>O serviço é gratuito? <span></span></h3>
+          <p>
+            R:Sim, O projeto Saúde na comunidade é um projeto politico
+            totalmente gratuito
+          </p>
+        </div>
+        <div class="perguntas">
+          <h3>O serviço é gratuito? <span></span></h3>
+          <p>
+            Sim, O projeto Saúde na comunidade é um projeto politico totalmente
+            gratuito
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="contato" class="contato">
+      <div class="container">
+        <h2>Entre em Contato</h2>
+        <p>
+          Fale conosco pelo WhatsApp para saber mais sobre o projeto e nos siga
+          nas redes sociais
+        </p>
+
+        <div class="contato-info">
+          <a href="https://wa.me/seunumero" target="_blank" class="whatsapp">
+            <i class="fab fa-whatsapp"></i> (XX) XXXX-XXXX
+          </a>
+
+          <div class="redes-sociais">
+            <a
+              href="https://facebook.com/seupagina"
+              target="_blank"
+              class="social facebook"
+            >
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a
+              href="https://instagram.com/seupagina"
+              target="_blank"
+              class="social instagram"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+          <p>Email:</p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>&copy; Um projeto feito por: ~Roberto Junior</p>
+    </footer>
+    <script type="module" src="./Scripts/index.js"></script>
+    <script src="./Scripts/carrocel.js"></script>
+    <script src="./Scripts/perguntas.js"></script>
+  </body>
+</html>

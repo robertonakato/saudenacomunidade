@@ -1,0 +1,37 @@
+.perguntas {
+  background-color: rgb(15, 39, 175);
+  width: 50%;
+  justify-self: center;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  max-height: auto;
+  transition: height 0.5s ease-out; /* Transição suave */
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.perguntas h3 {
+  text-align: center;
+  font-size: 1.5em;
+  margin: 0;
+  padding: 10px;
+  max-height: auto;
+  background-color: rgb(15, 39, 175);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  cursor: pointer;
+}
+.perguntas p {
+  font-size: 1.2em;
+  text-align: center;
+  height: 0px;
+  transition: height 0.5s ease-out;
+  margin: 5px;
+  overflow: hidden;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.abrirpergunta {
+}
