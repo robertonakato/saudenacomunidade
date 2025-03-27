@@ -90,6 +90,5 @@ footer {
 @media (max-aspect-ratio: 1/1) {
   .banner {
     height: auto;
-    background: black;
   }
 }
