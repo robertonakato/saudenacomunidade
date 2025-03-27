@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Saúde na comunidade</title>
     <link rel="stylesheet" href="./estilos/index.css" />
+    <link rel="stylesheet" href="./estilos/historia.css" />
     <link rel="stylesheet" href="./estilos/noticias.css" />
     <link rel="stylesheet" href="./estilos/servicos.css" />
     <link rel="stylesheet" href="./estilos/banner.css" />
@@ -23,7 +24,9 @@
       <nav>
         <ul>
           <li><a href="#home">Home</a></li>
+          <li><a href="#historia">Sobre</a></li>
           <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#perguntas">Faq</a></li>
           <li><a href="#contato">Contato</a></li>
         </ul>
       </nav>
@@ -34,14 +37,67 @@
         <div class="banner-container">
           <button class="prev" onclick="mudarSlide(-1)">❮</button>
           <div class="banner-img">
-            <img src="./src/banner 002.png" class="slide ativo" />
-            <img src="./src/banner01.png" class="slide" />
+            <img src="./src/banner02.jpg" class="slide ativo" />
+            <img src="./src/banne1.jpg" class="slide" />
             <img src="./src/banner03.png" class="slide" />
           </div>
           <button class="next" onclick="mudarSlide(1)">❯</button>
         </div>
       </section>
     </section>
+    <h2>📚Nossa História</h2>
+    <section id="historia">
+      <div class="historia">
+        <div class="inicio campoInfor">
+          <div class="campoinforImg">
+            <img src="./src/Luissefer.jpeg" alt="" />
+          </div>
+          <div class="campoinforText">
+            <h4>O começo</h4>
+            <p>
+              O projeto Saúde na Comunidade foi iniciado pelo
+              <span>Dr. Luís Sefer </span>com o objetivo de levar serviços de
+              saúde às comunidades mais carentes. A iniciativa oferece
+              atendimentos gratuitos, proporcionando assistência. Dessa forma, o
+              projeto renova a esperança daqueles que mais necessitam,
+              promovendo acesso à saúde de forma digna e inclusiva.
+            </p>
+          </div>
+        </div>
+        <div class="meio campoInfor">
+          <div class="campoinforImg">
+            <img src="./src/deputado.jpeg" alt="" />
+          </div>
+          <div class="campoinforText">
+            <h4>Sobre A Gestão Do Deputado Estadual Gustavo Sefér</h4>
+            <p>
+              Sob a liderança do Deputado Estadual Gustavo Sefer, o projeto tem
+              avançado significativamente. A gestão atual está focada em
+              expandir suas ações, trazendo ainda mais benefícios para as
+              comunidades atendidas e fortalecendo o impacto positivo da
+              iniciativa.
+            </p>
+          </div>
+        </div>
+        <div class="fim campoInfor">
+          <div class="campoinforImg">
+            <img src="./src/coordenadores.jpeg" alt="" />
+          </div>
+          <div class="campoinforText">
+            <h4>Coordenando o projeto</h4>
+            <p>
+              O projeto está sob a coordenação de Henrique Fonseca e Jorge
+              Miranda, com o compromisso de alcançar o maior número possível de
+              famílias nas ilhas de Outeiro e ilhas adjacentes, como Cotijuba.
+              Além disso, os coordenadores estão ativamente explorando novas
+              parcerias para ampliar o impacto e os benefícios proporcionados
+              pelo projeto.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <h2>📰Ultimas Noticias</h2>
     <section class="noticias">
       <div class="news-container">
@@ -72,7 +128,7 @@
       </div>
     </section>
 
-    <h2>Serviços Oferecidos</h2>
+    <h2>🩺Serviços Oferecidos</h2>
 
     <section id="servicos" class="servicos">
       <div class="servicos-container">
@@ -138,8 +194,8 @@
         </div>
       </div>
     </section>
-    <h2>Perguntas Frequentes</h2>
-    <section>
+    <h2>⁉️Perguntas Frequentes</h2>
+    <section id="perguntas">
       <div class="faq">
         <div class="perguntas">
           <h3>O que é o Projeto Saúde na Comunidade? <span></span></h3>
