@@ -83,4 +83,37 @@ h3 {
   margin-left: -15px;
   overflow: hidden;
   transition: max-height 0.5s ease-out; /* Transição suave */
+  scrollbar-width: none;
+}
+
+.servicos {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: white;
+}
+.consulta {
+  position: relative; /* Define a referência para posicionamento absoluto */
+}
+.consulta button {
+  justify-self: center;
+}
+
+.detalhes.abrir {
+  max-height: 300px; /* Altura máxima ao abrir */
+}
+
+.detalhes p {
+  width: 100%;
+  text-align: right;
+  color: red;
+}
+.detalhes li {
+  list-style: none;
+  line-height: 1.5;
+}
+.detalhes p span {
+  cursor: pointer;
+}
+.detalhes p span:hover {
+  font-size: 18px;
 }

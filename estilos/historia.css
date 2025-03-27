@@ -1,0 +1,54 @@
+.historia {
+  display: flex;
+  justify-content: center;
+}
+
+.campoInfor {
+  margin: 10px;
+  max-height: 700px;
+  width: 400px;
+  cursor: pointer;
+  overflow: auto;
+  scrollbar-width: none;
+}
+.campoInfor:hover {
+  box-shadow: 2px 2px 15px rgb(0, 0, 0);
+  border: 4px solid blue;
+}
+.campoinforImg {
+  height: 50%;
+}
+.campoinforImg img {
+  width: 100%;
+  height: 100%;
+}
+
+.campoinforText {
+  height: 60%;
+  background: rgb(210, 217, 240);
+  max-height: auto;
+}
+.campoinforText p {
+  text-align: justify;
+  margin: 0;
+  padding: 10px;
+  font-size: 1.4vw;
+}
+.campoinforText h4 {
+  text-align: center;
+  margin: 0;
+  font-size: 1em;
+  text-decoration: underline;
+}
+
+@media (max-width: 568px) {
+  .historia {
+    flex-direction: column;
+  }
+  .campoInfor {
+    width: 90%;
+  }
+  .campoinforText p {
+    font-size: 1.4vh;
+  }
+}
